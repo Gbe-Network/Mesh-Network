@@ -1,0 +1,14 @@
+[package]
+name = "subscribe"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "subscribe"
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+anchor-lang = "0.27.0"
+anchor-spl = "0.27.0"
+spl-token = "3.5.0"
+thiserror = "1.0"
