@@ -1,0 +1,4 @@
+scrape_configs:
+  - job_name: treasury-bot
+    static_configs:
+      - targets: ['localhost:9108']
